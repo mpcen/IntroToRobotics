@@ -161,3 +161,136 @@ edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
 	at java.lang.Thread.run(Thread.java:695)
 2014-09-04 19:25:13,363 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
 2014-09-04 19:25:13,372 [main] INFO  RobotClient.RobotClientGUI - Ack! 
+2014-09-04 19:27:58,636 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:27:58,651 [Thread-4] ERROR userinterface.connectionwizard.DirectConnectDescriptor - Exception while trying to connect to the host:  
+edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
+    reason = "Failed to create connection to peer [10.0.0.10]: Ice.ConnectionRefusedException
+                  error = 0"
+	at edu.cmu.ri.mrpl.TeRK.communicator.directconnect.DirectConnectCommunicator.connectToPeer(DirectConnectCommunicator.java:314)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectWorker.doTimeConsumingAction(DirectConnectDescriptor.java:191)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectDisconnectWorker.construct(DirectConnectDescriptor.java:172)
+	at edu.cmu.ri.mrpl.swing.SwingWorker$2.run(SwingWorker.java:124)
+	at java.lang.Thread.run(Thread.java:695)
+2014-09-04 19:27:58,658 [main] INFO  RobotClient.RobotClientGUI - Ack! 
+2014-09-04 19:28:03,954 [Thread-3] ERROR ice.communicator.DefaultIceCommunicator - Exception while attempting to shut down the 'EGN3060 Robot (direct-connect)' communicator. 
+Ice.CommunicatorDestroyedException
+	at IceInternal.Instance.objectAdapterFactory(Instance.java:122)
+	at Ice.CommunicatorI.shutdown(CommunicatorI.java:23)
+	at edu.cmu.ri.mrpl.ice.communicator.DefaultIceCommunicator.shutdown(DefaultIceCommunicator.java:128)
+	at edu.cmu.ri.mrpl.util.runtime.ShutdownHook.run(ShutdownHook.java:31)
+2014-09-04 19:28:57,342 [Thread-4] ERROR userinterface.connectionwizard.DirectConnectDescriptor - Exception while trying to connect to the host:  
+edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
+    reason = "Failed to create connection to peer [10.0.0.10]: Ice.ConnectionRefusedException
+                  error = 0"
+	at edu.cmu.ri.mrpl.TeRK.communicator.directconnect.DirectConnectCommunicator.connectToPeer(DirectConnectCommunicator.java:314)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectWorker.doTimeConsumingAction(DirectConnectDescriptor.java:191)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectDisconnectWorker.construct(DirectConnectDescriptor.java:172)
+	at edu.cmu.ri.mrpl.swing.SwingWorker$2.run(SwingWorker.java:124)
+	at java.lang.Thread.run(Thread.java:695)
+2014-09-04 19:28:57,347 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:28:57,351 [main] INFO  RobotClient.RobotClientGUI - Ack! 
+2014-09-04 19:29:14,674 [Thread-6] ERROR userinterface.connectionwizard.DirectConnectDescriptor - Exception while trying to connect to the host:  
+edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
+    reason = "Failed to create connection to peer [10.0.0.10]: Ice.ConnectionRefusedException
+                  error = 0"
+	at edu.cmu.ri.mrpl.TeRK.communicator.directconnect.DirectConnectCommunicator.connectToPeer(DirectConnectCommunicator.java:314)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectWorker.doTimeConsumingAction(DirectConnectDescriptor.java:191)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectDisconnectWorker.construct(DirectConnectDescriptor.java:172)
+	at edu.cmu.ri.mrpl.swing.SwingWorker$2.run(SwingWorker.java:124)
+	at java.lang.Thread.run(Thread.java:695)
+2014-09-04 19:30:31,806 [Thread-4] ERROR userinterface.connectionwizard.DirectConnectDescriptor - Exception while trying to connect to the host:  
+edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
+    reason = "Failed to create connection to peer [10.0.0.10]: Ice.ConnectionRefusedException
+                  error = 0"
+	at edu.cmu.ri.mrpl.TeRK.communicator.directconnect.DirectConnectCommunicator.connectToPeer(DirectConnectCommunicator.java:314)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectWorker.doTimeConsumingAction(DirectConnectDescriptor.java:191)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectDisconnectWorker.construct(DirectConnectDescriptor.java:172)
+	at edu.cmu.ri.mrpl.swing.SwingWorker$2.run(SwingWorker.java:124)
+	at java.lang.Thread.run(Thread.java:695)
+2014-09-04 19:30:31,810 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:30:31,820 [main] INFO  RobotClient.RobotClientGUI - Ack! 
+2014-09-04 19:30:40,741 [Thread-6] ERROR userinterface.connectionwizard.DirectConnectDescriptor - Exception while trying to connect to the host:  
+edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
+    reason = "Failed to create connection to peer [10.0.0.10]: Ice.ConnectionRefusedException
+                  error = 0"
+	at edu.cmu.ri.mrpl.TeRK.communicator.directconnect.DirectConnectCommunicator.connectToPeer(DirectConnectCommunicator.java:314)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectWorker.doTimeConsumingAction(DirectConnectDescriptor.java:191)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectDisconnectWorker.construct(DirectConnectDescriptor.java:172)
+	at edu.cmu.ri.mrpl.swing.SwingWorker$2.run(SwingWorker.java:124)
+	at java.lang.Thread.run(Thread.java:695)
+2014-09-04 19:31:29,902 [pool-5-thread-2] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 19:31:29,903 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:32:22,691 [PeerPinger for peer at 10.0.0.10] ERROR ice.proxy.IceProxyPinger - Exception while trying to ping the proxy.  Aborting pinger. 
+Ice.CommunicatorDestroyedException
+	at IceInternal.OutgoingConnectionFactory.create(OutgoingConnectionFactory.java:106)
+	at IceInternal.RoutableReference.createConnection(RoutableReference.java:379)
+	at IceInternal.DirectReference.getConnection(DirectReference.java:192)
+	at Ice._ObjectDelM.setup(_ObjectDelM.java:258)
+	at Ice.ObjectPrxHelperBase.__getDelegate(ObjectPrxHelperBase.java:905)
+	at Ice.ObjectPrxHelperBase.ice_ping(ObjectPrxHelperBase.java:102)
+	at Ice.ObjectPrxHelperBase.ice_ping(ObjectPrxHelperBase.java:90)
+	at edu.cmu.ri.mrpl.ice.proxy.IceProxyPinger.performLoopedBehavior(IceProxyPinger.java:82)
+	at edu.cmu.ri.mrpl.util.ControllableThread$ControlledThread.run(ControllableThread.java:47)
+2014-09-04 19:32:50,485 [pool-5-thread-3] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 19:32:50,488 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:35:40,653 [pool-5-thread-1] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 19:35:40,654 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:38:09,012 [Thread-3] ERROR ice.communicator.DefaultIceCommunicator - Exception while attempting to destroy the 'EGN3060 Robot (direct-connect)' communicator. 
+Ice.SocketException
+    error = 0
+	at IceInternal.TcpTransceiver.shutdownWrite(TcpTransceiver.java:99)
+	at Ice.ConnectionI.setState(ConnectionI.java:1693)
+	at Ice.ConnectionI.setState(ConnectionI.java:1551)
+	at Ice.ConnectionI.setState(ConnectionI.java:1735)
+	at Ice.ConnectionI.setState(ConnectionI.java:1551)
+	at Ice.ConnectionI.destroy(ConnectionI.java:272)
+	at IceInternal.OutgoingConnectionFactory.destroy(OutgoingConnectionFactory.java:31)
+	at IceInternal.Instance.destroy(Instance.java:562)
+	at Ice.CommunicatorI.destroy(CommunicatorI.java:17)
+	at edu.cmu.ri.mrpl.ice.communicator.DefaultIceCommunicator.shutdown(DefaultIceCommunicator.java:145)
+	at edu.cmu.ri.mrpl.util.runtime.ShutdownHook.run(ShutdownHook.java:31)
+Caused by: java.net.SocketException: Socket is not connected
+	at sun.nio.ch.SocketChannelImpl.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:676)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:438)
+	at IceInternal.TcpTransceiver.shutdownWrite(TcpTransceiver.java:87)
+	... 10 more
+2014-09-04 19:38:25,805 [Thread-4] ERROR userinterface.connectionwizard.DirectConnectDescriptor - Exception while trying to connect to the host:  
+edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
+    reason = "Failed to create connection to peer [10.0.0.10]: Ice.ConnectionRefusedException
+                  error = 0"
+	at edu.cmu.ri.mrpl.TeRK.communicator.directconnect.DirectConnectCommunicator.connectToPeer(DirectConnectCommunicator.java:314)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectWorker.doTimeConsumingAction(DirectConnectDescriptor.java:191)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectDisconnectWorker.construct(DirectConnectDescriptor.java:172)
+	at edu.cmu.ri.mrpl.swing.SwingWorker$2.run(SwingWorker.java:124)
+	at java.lang.Thread.run(Thread.java:695)
+2014-09-04 19:38:25,809 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:38:25,814 [main] INFO  RobotClient.RobotClientGUI - Ack! 
+2014-09-04 19:38:51,774 [Thread-4] ERROR userinterface.connectionwizard.DirectConnectDescriptor - Exception while trying to connect to the host:  
+edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
+    reason = "Failed to create connection to peer [10.0.0.10]: Ice.ConnectionRefusedException
+                  error = 0"
+	at edu.cmu.ri.mrpl.TeRK.communicator.directconnect.DirectConnectCommunicator.connectToPeer(DirectConnectCommunicator.java:314)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectWorker.doTimeConsumingAction(DirectConnectDescriptor.java:191)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectDisconnectWorker.construct(DirectConnectDescriptor.java:172)
+	at edu.cmu.ri.mrpl.swing.SwingWorker$2.run(SwingWorker.java:124)
+	at java.lang.Thread.run(Thread.java:695)
+2014-09-04 19:38:51,787 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:38:51,788 [main] INFO  RobotClient.RobotClientGUI - Ack! 
+2014-09-04 19:39:26,561 [Thread-4] ERROR userinterface.connectionwizard.DirectConnectDescriptor - Exception while trying to connect to the host:  
+edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
+    reason = "Failed to create connection to peer [10.0.0.10]: Ice.ConnectionRefusedException
+                  error = 0"
+	at edu.cmu.ri.mrpl.TeRK.communicator.directconnect.DirectConnectCommunicator.connectToPeer(DirectConnectCommunicator.java:314)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectWorker.doTimeConsumingAction(DirectConnectDescriptor.java:191)
+	at edu.cmu.ri.createlab.TeRK.userinterface.connectionwizard.DirectConnectDescriptor$ConnectDisconnectWorker.construct(DirectConnectDescriptor.java:172)
+	at edu.cmu.ri.mrpl.swing.SwingWorker$2.run(SwingWorker.java:124)
+	at java.lang.Thread.run(Thread.java:695)
+2014-09-04 19:39:26,566 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:39:26,579 [main] INFO  RobotClient.RobotClientGUI - Ack! 
+2014-09-04 19:40:50,499 [pool-5-thread-3] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 19:40:50,501 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:43:54,013 [pool-5-thread-3] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 19:43:54,015 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:48:12,651 [pool-5-thread-3] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 19:48:12,653 [main] INFO  RobotClient.RobotClientGUI - After wait()! 

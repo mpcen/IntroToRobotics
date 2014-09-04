@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import java.util.Scanner;
 
-public class MyFirstCreate {
+public class Part2 {
 
     public static void main(String[] args) {
         // Instantiate the robot and robot GUI
