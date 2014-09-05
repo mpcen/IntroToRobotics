@@ -28,9 +28,9 @@ public class MyFirstCreate {
         {
         	// Write your code here
         	myRobot.moveMotors(250,250,4000);
-        	myRobot.sleepUnlessStop(2000);
+        	myRobot.sleepUnlessStop(100);
         	myRobot.moveAngle(90);
-        	myRobot.sleepUnlessStop(2000);
+        	myRobot.sleepUnlessStop(100);
         	
         }
     }

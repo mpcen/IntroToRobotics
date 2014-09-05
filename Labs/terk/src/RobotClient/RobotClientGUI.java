@@ -157,6 +157,11 @@ public class RobotClientGUI extends BaseGUIClient {
                             dataSynchronizationLock.notifyAll();
                         }
                     }
+                    
+                    public void promptUserDistance()
+                    {
+                    	writeToTextBox("Enter a distance X (in cm): ");
+                    }
 
                     public void toggleGUIElementState(final boolean isConnectedToQwerk) {
                         messageTextArea.setEnabled(isConnectedToQwerk);

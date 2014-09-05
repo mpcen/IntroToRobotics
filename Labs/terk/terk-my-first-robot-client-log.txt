@@ -294,3 +294,92 @@ edu.cmu.ri.mrpl.peer.PeerConnectionFailedException
 2014-09-04 19:43:54,015 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
 2014-09-04 19:48:12,651 [pool-5-thread-3] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
 2014-09-04 19:48:12,653 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 19:52:24,439 [pool-5-thread-1] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 19:52:24,441 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 20:12:38,481 [PeerPinger for peer at 10.0.0.10] ERROR ice.proxy.IceProxyPinger - Exception while trying to ping the proxy.  Aborting pinger. 
+Ice.CommunicatorDestroyedException
+	at IceInternal.OutgoingConnectionFactory.create(OutgoingConnectionFactory.java:106)
+	at IceInternal.RoutableReference.createConnection(RoutableReference.java:379)
+	at IceInternal.DirectReference.getConnection(DirectReference.java:192)
+	at Ice._ObjectDelM.setup(_ObjectDelM.java:258)
+	at Ice.ObjectPrxHelperBase.__getDelegate(ObjectPrxHelperBase.java:905)
+	at Ice.ObjectPrxHelperBase.ice_ping(ObjectPrxHelperBase.java:102)
+	at Ice.ObjectPrxHelperBase.ice_ping(ObjectPrxHelperBase.java:90)
+	at edu.cmu.ri.mrpl.ice.proxy.IceProxyPinger.performLoopedBehavior(IceProxyPinger.java:82)
+	at edu.cmu.ri.mrpl.util.ControllableThread$ControlledThread.run(ControllableThread.java:47)
+2014-09-04 20:13:53,226 [pool-5-thread-1] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 20:13:53,229 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 20:26:15,672 [pool-5-thread-3] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 20:26:15,674 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 20:29:06,898 [pool-5-thread-1] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 20:29:06,900 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 20:31:55,852 [Thread-3] ERROR ice.communicator.DefaultIceCommunicator - Exception while attempting to destroy the 'EGN3060 Robot (direct-connect)' communicator. 
+Ice.SocketException
+    error = 0
+	at IceInternal.TcpTransceiver.shutdownWrite(TcpTransceiver.java:99)
+	at Ice.ConnectionI.setState(ConnectionI.java:1693)
+	at Ice.ConnectionI.setState(ConnectionI.java:1551)
+	at Ice.ConnectionI.setState(ConnectionI.java:1735)
+	at Ice.ConnectionI.setState(ConnectionI.java:1551)
+	at Ice.ConnectionI.destroy(ConnectionI.java:272)
+	at IceInternal.OutgoingConnectionFactory.destroy(OutgoingConnectionFactory.java:31)
+	at IceInternal.Instance.destroy(Instance.java:562)
+	at Ice.CommunicatorI.destroy(CommunicatorI.java:17)
+	at edu.cmu.ri.mrpl.ice.communicator.DefaultIceCommunicator.shutdown(DefaultIceCommunicator.java:145)
+	at edu.cmu.ri.mrpl.util.runtime.ShutdownHook.run(ShutdownHook.java:31)
+Caused by: java.net.SocketException: Socket is not connected
+	at sun.nio.ch.SocketChannelImpl.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:676)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:438)
+	at IceInternal.TcpTransceiver.shutdownWrite(TcpTransceiver.java:87)
+	... 10 more
+2014-09-04 20:31:58,790 [Thread-3] ERROR ice.communicator.DefaultIceCommunicator - Exception while attempting to destroy the 'EGN3060 Robot (direct-connect)' communicator. 
+Ice.SocketException
+    error = 0
+	at IceInternal.TcpTransceiver.shutdownWrite(TcpTransceiver.java:99)
+	at Ice.ConnectionI.setState(ConnectionI.java:1693)
+	at Ice.ConnectionI.setState(ConnectionI.java:1551)
+	at Ice.ConnectionI.setState(ConnectionI.java:1735)
+	at Ice.ConnectionI.setState(ConnectionI.java:1551)
+	at Ice.ConnectionI.destroy(ConnectionI.java:272)
+	at IceInternal.OutgoingConnectionFactory.destroy(OutgoingConnectionFactory.java:31)
+	at IceInternal.Instance.destroy(Instance.java:562)
+	at Ice.CommunicatorI.destroy(CommunicatorI.java:17)
+	at edu.cmu.ri.mrpl.ice.communicator.DefaultIceCommunicator.shutdown(DefaultIceCommunicator.java:145)
+	at edu.cmu.ri.mrpl.util.runtime.ShutdownHook.run(ShutdownHook.java:31)
+Caused by: java.net.SocketException: Socket is not connected
+	at sun.nio.ch.SocketChannelImpl.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:676)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:438)
+	at IceInternal.TcpTransceiver.shutdownWrite(TcpTransceiver.java:87)
+	... 10 more
+2014-09-04 20:32:02,697 [Thread-3] ERROR ice.communicator.DefaultIceCommunicator - Exception while attempting to destroy the 'EGN3060 Robot (direct-connect)' communicator. 
+Ice.SocketException
+    error = 0
+	at IceInternal.TcpTransceiver.shutdownWrite(TcpTransceiver.java:99)
+	at Ice.ConnectionI.setState(ConnectionI.java:1693)
+	at Ice.ConnectionI.setState(ConnectionI.java:1551)
+	at Ice.ConnectionI.setState(ConnectionI.java:1735)
+	at Ice.ConnectionI.setState(ConnectionI.java:1551)
+	at Ice.ConnectionI.destroy(ConnectionI.java:272)
+	at IceInternal.OutgoingConnectionFactory.destroy(OutgoingConnectionFactory.java:31)
+	at IceInternal.Instance.destroy(Instance.java:562)
+	at Ice.CommunicatorI.destroy(CommunicatorI.java:17)
+	at edu.cmu.ri.mrpl.ice.communicator.DefaultIceCommunicator.shutdown(DefaultIceCommunicator.java:145)
+	at edu.cmu.ri.mrpl.util.runtime.ShutdownHook.run(ShutdownHook.java:31)
+Caused by: java.net.SocketException: Socket is not connected
+	at sun.nio.ch.SocketChannelImpl.shutdown(Native Method)
+	at sun.nio.ch.SocketChannelImpl.shutdownOutput(SocketChannelImpl.java:676)
+	at sun.nio.ch.SocketAdaptor.shutdownOutput(SocketAdaptor.java:438)
+	at IceInternal.TcpTransceiver.shutdownWrite(TcpTransceiver.java:87)
+	... 10 more
+2014-09-04 20:32:26,026 [pool-5-thread-1] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 20:32:26,028 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 20:37:53,220 [pool-5-thread-3] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 20:37:53,222 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 20:38:43,431 [pool-5-thread-2] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 20:38:43,433 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 20:39:45,613 [pool-5-thread-1] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 20:39:45,615 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
+2014-09-04 20:41:14,777 [pool-5-thread-2] INFO  components.framework.GUIClientHelper -    Connection successful to peer 10.0.0.10! 
+2014-09-04 20:41:14,779 [main] INFO  RobotClient.RobotClientGUI - After wait()! 
