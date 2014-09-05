@@ -14,6 +14,20 @@ import java.util.Scanner;
 
 public class Part2 {
 
+  public static void ourFunction(int x) {
+    int y = 100;
+
+    for(;x>0;x--)
+    {
+        myRobot.moveDistance(y);
+       	myRobot.sleepUnlessStop(2000);
+       	myRobot.moveAngle(90);
+       	myRobot.sleepUnlessStop(2000);
+       	y += 100;
+   	}
+
+  }
+
     public static void main(String[] args) {
         // Instantiate the robot and robot GUI
         CreateClient myRobot = new CreateClient("EGN3060 Robot","10.0.0.10");
@@ -21,26 +35,11 @@ public class Part2 {
 
         myRobot.waitForPlay();
         myRobot.initialize();
-        int x;
-        int y = 100;
+
         myRobot.sleepUnlessStop(5000);
-        
-        //while (myRobot.isPlaying())
-        //{
-        // Write your code here
-        //System.out.println("Enter a distance X (in cm):");
-        //x = scanner.nextInt() * 10;
-        x = myRobot.getTextFieldValueAsInt();
-        for(;x>0;x--)
-        {
-        myRobot.moveDistance(y);
-       	myRobot.sleepUnlessStop(2000);
-       	myRobot.moveAngle(90);
-       	myRobot.sleepUnlessStop(2000);
-       	y += 100;
-       	}
-        //myRobot.stopMoving();
-        //}
+
+       ourFunction(myRobot.getTextFieldValueAsInt());
+
     }
 }
 
