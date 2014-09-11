@@ -12,34 +12,39 @@ import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import java.util.Scanner;
 
-public class Part2 {
-
-  public static void ourFunction(int x) {
-    int y = 100;
-
-    for(;x>0;x--)
+public class Part2 
+{
+	
+    public static void main(String[] args) 
     {
-        myRobot.moveDistance(y);
-       	myRobot.sleepUnlessStop(2000);
-       	myRobot.moveAngle(90);
-       	myRobot.sleepUnlessStop(2000);
-       	y += 100;
-   	}
-
-  }
-
-    public static void main(String[] args) {
+    	
         // Instantiate the robot and robot GUI
         CreateClient myRobot = new CreateClient("EGN3060 Robot","10.0.0.10");
-        Scanner scanner = new Scanner(System.in);
-
+        int x;
+        
         myRobot.waitForPlay();
         myRobot.initialize();
 
-        myRobot.sleepUnlessStop(5000);
+       while(myRobot.isPlaying())
+       {
+    	   x = myRobot.getTextFieldValueAsInt();
+    	   if(x > 0)
+    	   {
+    		   squareSpiral(myRobot.getTextFieldValueAsInt(), myRobot);
+    	   }
+       }
+       
+    }
 
-       ourFunction(myRobot.getTextFieldValueAsInt());
-
+    public static void squareSpiral(int x, CreateClient i) 
+    {
+    	int y = 100;
+		for(;x>0;x--)
+		{
+			i.moveDistance(y);
+			i.moveAngle(90);
+			y += 100;
+		}
     }
 }
 
